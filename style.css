@@ -1,10 +1,18 @@
+/* INÍCIO RESET CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FIM RESET CSS */
+
 /* INÍCIO GERAL */
 body
 {
     font-family: Overpass;
     color: #404042;
     font-size: 18px;
-    margin: 0;
 }
   
 h1, h2, h3
@@ -120,6 +128,7 @@ a:hover
     background: #404042;
     text-align: center;
     padding: 24px 0;
+    width: auto;
 }
   
 #footer p 
@@ -130,7 +139,7 @@ a:hover
 
 /* INÍCIO MEDIA QUERIES */
 /* CARDS */
-@media (max-width: 800px) 
+@media (max-width: 1000px) 
 {
     #cards 
     {
@@ -148,16 +157,16 @@ a:hover
 {
     #container 
     {
-      width: 400px;
+      width: 300px;
     }
 }
   
   
-/* @media (min-width: 800px) 
+@media (min-width: 500px) 
 {
     #container 
     {
-      width: 600px;
+      width: 500px;
     }
 }
   
@@ -167,5 +176,5 @@ a:hover
     {
       width: 800px;
     }
-} */
+} 
 /* FIM MEDIA QUERIES */
