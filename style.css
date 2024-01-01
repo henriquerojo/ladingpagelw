@@ -127,3 +127,45 @@ a:hover
     color: white;
 }
 /* FIM FOOTER */
+
+/* INÍCIO MEDIA QUERIES */
+/* CARDS */
+@media (max-width: 800px) 
+{
+    #cards 
+    {
+      grid-template-columns: 1fr;
+    }
+    
+    .card-white 
+    {
+      width: auto;
+    }
+}
+    
+/* CONTAINER */
+@media (max-width: 500px) 
+{
+    #container 
+    {
+      width: 400px;
+    }
+}
+  
+  
+/* @media (min-width: 800px) 
+{
+    #container 
+    {
+      width: 600px;
+    }
+}
+  
+@media (min-width: 1000px) 
+{
+    #container 
+    {
+      width: 800px;
+    }
+} */
+/* FIM MEDIA QUERIES */
